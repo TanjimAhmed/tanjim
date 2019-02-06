@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>list</title>
+</head>
+<body>
+  <p>preceding test</p>
+  <ol type="i">
+    <li>list Item 1
+      <ol type="a">
+        <li>Nested item 1.1</li>
+        <li>Nested item 1.2</li>
+      </ol>
+    </li>
+    <li>list Item 2
+      <ol>
+        <li>Nested item 2.1</li>
+        <li>Nested item 2.2
+            <ul type="circle">
+              <li>Nested item 2.2.1</li>
+              <li>Nested item 2.2.2
+                  <ul type="square">
+                    <li>Nested item 2.2.2.1</li>
+                    <li>Nested item 2.2.2.2</li>
+                  </ul>
+              </li>
+            </ul>
+        </li>
+      </ol>
+    </li>
+    <li>list Item 3
+      <ol type="a">
+        <li>Nested item 1.1</li>
+        <li>Nested item 1.2</li>
+        <li>Nested item 1.3</li>
+      </ol>
+    </li>
+  </ol>
+</body>
+</html>
